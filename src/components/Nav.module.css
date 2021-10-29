@@ -1,0 +1,19 @@
+.menu {
+    grid-area: menu;
+    background-color: brown;
+}
+
+.menu__list {
+    list-style: none;
+}
+
+.item:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.link {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    color: #202336;
+}
