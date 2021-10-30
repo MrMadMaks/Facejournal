@@ -6,14 +6,12 @@ import './App.css';
 
 
 
-function App() {
-  return (
+const App = () => (
     <div className="wrapper">
-      <Header />
-      <Nav />
-      <Main/>
+        <Header/>
+        <Nav/>
+        <Main/>
     </div>
-  );
-}
+);
 
 export default App;
