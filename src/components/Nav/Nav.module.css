@@ -15,5 +15,9 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    color: #202336;
+    color: #f3f3f3;
+}
+
+.link.active {
+    color: gold;
 }

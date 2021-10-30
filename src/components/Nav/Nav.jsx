@@ -1,17 +1,28 @@
 import React from 'react';
 import c from './Nav.module.css';
+import {NavLink} from "react-router-dom";
 
 const Nav = () => {
     return (
-        <nav className={c.menu}>
-            <ul className={c.menu__list}>
-                <li className={c.item}><a href="/dialogs" className={c.link}>Messages</a></li>
-                <li className={c.item}><a href="/profile" className={c.link}>Profile</a></li>
-                <li className={c.item}><a href="/" className={c.link}>Music</a></li>
-                <li className={c.item}><a href="/" className={c.link}>Friends</a></li>
-                <li className={c.item}><a href="/" className={c.link}>Settings</a></li>
-            </ul>
-        </nav>
+            <nav className={c.menu}>
+                <ul className={c.menu__list}>
+                    <li className={c.item}>
+                        <NavLink to="/profile" activeClassName={c.active} className={c.link}>Profile</NavLink>
+                    </li>
+                    <li className={c.item}>
+                        <NavLink to="/dialogs" activeClassName={c.active} className={c.link}>Messages</NavLink>
+                    </li>
+                    <li className={c.item}>
+                        <NavLink to="/music" activeClassName={c.active} className={c.link}>Music</NavLink>
+                    </li>
+                    <li className={c.item}>
+                        <NavLink to="/friends" activeClassName={c.active} className={c.link}>Friends</NavLink>
+                    </li>
+                    <li className={c.item}>
+                        <NavLink to="/news" activeClassName={c.active} className={c.link}>News</NavLink>
+                    </li>
+                </ul>
+            </nav>
     )
 }
 
