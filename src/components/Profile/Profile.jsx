@@ -1,12 +1,12 @@
 import React from 'react';
 import cat1 from '../../img/cat1.png';
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from "./ProfileInfo/ProfileInfo";
 
 const Profile = () => {
     return (
         <section className="profile">
-            <div><img src={cat1} alt="Cat" className="cat" /></div>
-            <div>ava+descr</div>
+            <ProfileInfo/>
             <MyPosts />
         </section>
     )

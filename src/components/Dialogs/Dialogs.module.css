@@ -1,3 +1,17 @@
 .profile__dialogs {
     padding: 20px;
 }
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.user:not(:last-child) {
+    margin-bottom: 10px;
+}
+.message:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.link.active {
+    color: gold;
+}
