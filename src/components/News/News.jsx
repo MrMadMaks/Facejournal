@@ -1,24 +1,3 @@
-// import React, {useEffect, useState} from "react";
-// import c from "./News.module.css";
-//
-// const News = () => {
-//
-//     const[news, setNews] = useState();
-//
-//     useEffect(() => {
-//         fetch('https://gnews.io/api/v4/{endpoint}?token=449f83da90ee1b7331ae999e4ec2b23e')
-//             .then(responce => responce.json())
-//             .then(result => {
-//                 setNews({news: result.data})
-//             })
-//     });
-//
-//     return (
-//         <section className={c.news}>
-//             {news}
-//         </section>
-//     )
-// }
 import {Component} from "react";
 import CardList from "./CardList/CardList";
 import c from './News.module.css'
