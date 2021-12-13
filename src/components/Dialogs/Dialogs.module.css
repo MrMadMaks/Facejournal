@@ -15,3 +15,12 @@
 .link.active {
     color: gold;
 }
+
+.fpos {
+    position: relative;
+    margin-top: 20px;
+}
+
+.btn {
+    border-radius: 5px;
+}

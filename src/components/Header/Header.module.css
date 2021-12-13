@@ -1,4 +1,12 @@
 .header {
     grid-area: header;
-    background-color: green;
+    background-color: deepskyblue;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.header__logo {
+    margin-right: 20px;
 }

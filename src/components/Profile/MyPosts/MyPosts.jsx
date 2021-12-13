@@ -19,10 +19,9 @@ const MyPosts = (props) => {
 
     return (
         <div className={c.profile__posts}>
-            <h3>My posts</h3>
-            <div>
-                <h3>New post</h3>
-                <div>
+
+                <div className={c['my-post']}>
+                    <h3>New post</h3>
                     <form>
                         <div>
                             <textarea onChange={onPostChange} ref={newPostElement} value={props.newPostText}/>
@@ -32,9 +31,12 @@ const MyPosts = (props) => {
                         </div>
                     </form>
                 </div>
-            </div>
-            <div className={c.items}>
-                {postElements}
+
+            <div className={c['new-post']}>
+                <h3>My posts</h3>
+                <div className={c.items}>
+                    {postElements}
+                </div>
             </div>
         </div>
     )

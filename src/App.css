@@ -16,9 +16,11 @@ a {
   grid-gap: 10px;
   max-width: 1200px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 .main {
   grid-area: main;
-  background-color: yellowgreen;
+  background-color: lightskyblue;
+  border-radius: 15px;
 }

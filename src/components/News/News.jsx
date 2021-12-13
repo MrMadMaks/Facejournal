@@ -15,7 +15,7 @@ export default class News extends Component {
         fetch('https://gnews.io/api/v4/search?q=example&token=449f83da90ee1b7331ae999e4ec2b23e')
             .then(response => response.json())
             .then(articles => {
-                this.setState({news: articles.data});
+                this.setState({news: articles.articles});
             })
     }
 

@@ -1,3 +1,16 @@
 .profile__posts {
     padding: 10px;
 }
+.my-post {
+    position: absolute;
+    left: 310px;
+    top: 90px;
+}
+.new-post {
+    position: absolute;
+    left: 550px;
+    top: 0px;
+}
+.btn {
+    border-radius: 5px;
+}

@@ -13,6 +13,7 @@ export default class CardList extends Component {
 
     render() {
 
+
         return(
             <div className={c.cardList}>
 
@@ -20,9 +21,12 @@ export default class CardList extends Component {
                     this.props.userList.map((user) => {
                         return(
                             <Card
-                                title={user.title}
-                                description={user.description}
-                                image={user['image']} />
+                                key={user.id}
+                                id={user.id}
+                                email={user.email}
+                                firstName={user['first_name']}
+                                lastName={user['last_name']}
+                                avatar={user['avatar']} />
                         )
                     })
                 }

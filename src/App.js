@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header/Header.jsx';
 import Nav from './components/Nav/Nav.jsx';
 import './App.css';
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Profile from "./components/Profile/Profile";
 import Dialogs from "./components/Dialogs/Dialogs";
 import Music from "./components/Music/Music";
@@ -12,7 +12,6 @@ import News from "./components/News/News";
 const App = (props) => {
     return (
         <BrowserRouter>
-
             <div className="wrapper">
                 <Header/>
                 <Nav/>

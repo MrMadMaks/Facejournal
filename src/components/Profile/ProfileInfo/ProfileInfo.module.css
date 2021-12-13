@@ -1,3 +1,17 @@
+.profile_info {
+    position: relative;
+    padding: 15px;
+}
+
 .descr {
+    position: absolute;
+    top: 10px;
+    left: 300px !important;
     padding: 10px;
+}
+
+.moto {
+    border-radius: 15px;
+    width: 30%;
+    height: 30%;
 }

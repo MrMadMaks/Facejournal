@@ -1,12 +1,12 @@
 import React from 'react';
-import cat1 from '../../../img/cat1.png';
+import moto from '../../../img/Мото.jpg';
 import c from './ProfileInfo.module.css'
 
-const ProfileInfo = () => {
+const ProfileInfo = (props) => {
     return (
         <div className={c.profile_info}>
-            <div><img src={cat1} alt="Cat" className="cat" /></div>
-            <div className={c.descr}>ava+descr</div>
+            <div><img src={moto} alt="Cat" className={c.moto} /></div>
+            <div className={c.descr}>Name: Maxim<br/>Birthday: 25 december<br/>City: Saint-Petersburg</div>
         </div>
     )
 }

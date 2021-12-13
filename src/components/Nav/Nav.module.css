@@ -1,6 +1,8 @@
 .menu {
     grid-area: menu;
-    background-color: brown;
+    height: 80vh;
+    background-color: slateblue;
+    border-radius: 15px;
 }
 
 .menu__list {
@@ -15,7 +17,7 @@
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
-    color: #f3f3f3;
+    color: ghostwhite;
 }
 
 .link.active {

@@ -14,7 +14,7 @@ export default class Card extends Component {
 
     render() {
 
-        const {title, content, image} = this.props
+        const {title, description, image} = this.props
 
         return(
             <div className={c.card}>
@@ -22,7 +22,7 @@ export default class Card extends Component {
                     {title}
                 </h2>
                 <p>
-                    {content}
+                    {description}
                 </p>
                 <div className={c.cardImage}>
                     <img src={image}/>
